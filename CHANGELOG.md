@@ -16,6 +16,7 @@ We manage release notes in this file instead of the paginated Github Releases Pa
   <summary>Table of Contents</summary>
 
 - [React Router Releases](#react-router-releases)
+  - [v8.5.1](#v851)
   - [v8.5.0](#v850)
     - [View Transition Deprecations](#view-transition-deprecations)
     - [API-only Mode (unstable)](#api-only-mode-unstable)
@@ -119,6 +120,16 @@ We manage release notes in this file instead of the paginated Github Releases Pa
   - [v7.0.0](#v700)
 
 </details>
+
+## v8.5.1
+
+Date: 2026-10-19
+
+### Patch Changes
+
+- `@react-router/serve` - Avoid writing a blank line to stderr when the server shuts down successfully ([#15641](https://github.com/remix-run/react-router/pull/15641))
+
+**Full Changelog**: [`v8.5.0...v8.5.1`](https://github.com/remix-run/react-router/compare/react-router@8.5.0...react-router@8.5.1)
 
 ## v8.5.0
 
